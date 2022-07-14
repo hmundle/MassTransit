@@ -20,6 +20,8 @@ MassTransit is easily configured in ASP.NET Core or .NET Generic Host applicatio
  * Add health checks for the bus and receive endpoints
  * Use `ILoggerFactory` to create log writers
 
+## Publisher
+
 To configure MassTransit so that it can be used to send/publish messages, the configuration below is recommended as a starting point.
 
 <<< @/docs/code/configuration/AspNetCorePublisher.cs
